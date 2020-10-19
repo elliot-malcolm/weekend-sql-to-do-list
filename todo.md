@@ -1,6 +1,6 @@
 ##HTML
-[] data input for task 
-[] table for task list 
+[x] data input for task 
+[x] table for task list 
 [] button for "delete" that removes the item
 [] button for "complete" that toggles color status
 

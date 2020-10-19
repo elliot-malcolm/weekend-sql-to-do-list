@@ -10,7 +10,7 @@ const pool = new Pool({
 });
 
 pool.on('connect', () => {
-    console.log("Postgresql Connected");
+    console.log("pool Connected");
 } );
 
 pool.on('error', (error) => {
