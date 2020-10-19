@@ -26,5 +26,6 @@ router.post('/', (req, res)=>{
         console.log('error in POST pg', err);
         res.sendStatus(500);
     })
+});
 
 module.exports = router;
