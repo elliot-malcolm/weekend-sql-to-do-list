@@ -1,2 +1,4 @@
-CREATE TABLE 
+CREATE TABLE "to_do" (
 "id" SERIAL PRIMARY KEY,
+"list_item" VARCHAR(300) NOT NULL,
+"status" VARCHAR(1) NOT NULL);
