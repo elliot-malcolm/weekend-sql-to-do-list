@@ -16,7 +16,7 @@ router.get('/', (req, res) => {
 
 router.post('/', (req, res)=>{
     let toDoItem = req.body;
-    let queryText = `INSERT INTO "to_do"("list_item")
+    let queryText = `INSERT INTO "to_do" ("list_item")
     VALUES($1);`;
     pool.query(queryText, [toDoItem.listItem])
     .then((result)=>{
